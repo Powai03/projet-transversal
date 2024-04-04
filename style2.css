@@ -4,3 +4,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-image: url('plage.png') ;
+    background-size: cover;
+    background-position: bottom fixed;
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-image: url('ciel.png');
+    background-size: auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    z-index: 1001;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    height: 100%;
+}
+button {
+    background-color: transparent;
+    border: none;
+    width: 20vw;
+    color: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    height: 100%;
+}
+a button:hover{
+    color: black;
+    background-color: white ;
+}
+
+.mer {
+    background-image: url('mer.png');
+    background-size: cover;
+    background-position: bottom;
+    color: none;
+    background-color: none;
+    height: 40vh;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 80vh;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
